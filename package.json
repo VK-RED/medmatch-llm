@@ -1,0 +1,14 @@
+{
+  "name": "medmatch-llm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/VK-RED/medmatch-llm.git",
+  "author": "Vishnu Kumar <vishnukumart96@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev" : "npx tsc -b & node dist/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
