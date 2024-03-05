@@ -6,7 +6,7 @@
   "author": "Vishnu Kumar <vishnukumart96@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev" : "npx tsc -b & node dist/index.js"
+    "dev" : "npx tsc -b && node dist/index.js"
   },
   "devDependencies": {
     "typescript": "^5.3.3"
