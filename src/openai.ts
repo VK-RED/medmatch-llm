@@ -75,7 +75,7 @@ export class LlmClient {
 
     try {
       const events = await this.client.chat.completions.create({
-        model: 'gpt-4',
+        model: 'gpt-4-0125-preview',
         messages: requestMessages,
         stream: true,
         temperature: 0.3,
